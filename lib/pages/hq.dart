@@ -10,7 +10,7 @@ class Hq extends StatefulWidget {
 class _Hq extends State<Hq> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
         body: Center(
       child: Text('le da Vjncj Code'),
     ));
