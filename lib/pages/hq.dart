@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:the_portfolio/pages/hq.dart';
+import 'package:portfolio_nouveau/pages/hq.dart';
 
 void main() {
   runApp(const MyApp());
