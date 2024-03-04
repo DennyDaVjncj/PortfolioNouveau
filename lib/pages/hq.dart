@@ -12,7 +12,7 @@ class _Hq extends State<Hq> {
   Widget build(BuildContext context) {
     return const Scaffold(
         body: Center(
-      child: Text('le da Vjncj Code'),
+      child: Text('denny da vjncj'),
     ));
   }
 }
