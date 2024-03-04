@@ -10,9 +10,33 @@ class Hq extends StatefulWidget {
 class _Hq extends State<Hq> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-        body: Center(
-      child: Text('denny da vjncj'),
+    return Scaffold(
+        body: ListView(
+      scrollDirection: Axis.vertical,
+      children: [
+        //main section
+        Container(
+          height: 500,
+          width: double.maxFinite,
+        ),
+        //compentencies
+        Container(
+          height: 500,
+          width: double.maxFinite,
+          color: Colors.blueGrey,
+        ),
+        //works
+        Container(
+          height: 500,
+          width: double.maxFinite,
+        ),
+        //contact me
+        Container(
+          height: 500,
+          width: double.maxFinite,
+          color: Colors.pink,
+        ),
+      ],
     ));
   }
 }
