@@ -28,7 +28,7 @@ class _Hq extends State<Hq> {
         ),
         //works
         Container(
-            height: 500, width: double.maxFinite, colors: Colors.lightBlue),
+            height: 500, width: double.maxFinite, color: Colors.lightBlue),
         //contact me
         Container(
           height: 500,
