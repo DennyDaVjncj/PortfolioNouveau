@@ -18,23 +18,22 @@ class _Hq extends State<Hq> {
         Container(
           height: 500,
           width: double.maxFinite,
+          color: Colors.lightBlue,
         ),
         //compentencies
         Container(
           height: 500,
           width: double.maxFinite,
-          color: Colors.blueGrey,
+          color: Colors.deepOrange,
         ),
         //works
         Container(
-          height: 500,
-          width: double.maxFinite,
-        ),
+            height: 500, width: double.maxFinite, colors: Colors.lightBlue),
         //contact me
         Container(
           height: 500,
           width: double.maxFinite,
-          color: Colors.pink,
+          color: Colors.deepOrange,
         ),
       ],
     ));
